@@ -1,15 +1,11 @@
-import { Text, View } from "react-native";
-
-export default function Index() {
+import React from 'react';
+import { SafeAreaView } from 'react-native';
+import LoaderScreen from './components/LoaderScreen'; // Import the LoaderScreen component
+import { Redirect } from 'expo-router';
+import "react-native-gesture-handler"
+export default function App() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
+    <Redirect href={'/(auth)/login'} />
+
   );
 }

@@ -12,6 +12,10 @@
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    // "app/(home)/Navigation.js",
+    // "app/(home)/screen/tabScreens/Feed.js",
+    // "app/(home)/screen/tabScreens/Settings.js",
+    // "app/(home)/screen/tabScreens/Notifications.js",
   ]
 }
